@@ -1,0 +1,506 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video, address {
+	font-family: 'Nanum Gothic';
+}
+
+font {
+	display: block;
+}
+
+a, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.hover_button {
+	box-shadow: 3px 3px 3px #ddd;
+	box-shadow: -3px 3px 3px #ddd;
+}
+
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	margin: 0;
+}
+
+h5 {
+	margin: 0;
+}
+/**/
+.btn-image-lyk {
+	width: 15px;
+	height: 15px;
+	margin-left: 15px;
+	margin-right: 5px;
+	position: relative;
+	top: -1px;
+}
+
+.btn-default {
+	position: relative;
+	top: -3px;
+	display: block;
+	float: right;
+	background-color: #c2c2c2;
+	border: 1px solid #c2c2c2;
+	color: white;
+	border-radius: 3px;
+}
+
+.row_1, .row_2 {
+	margin-top: 10px;
+}
+
+.btn {
+	float: left;
+	margin: 10px 10px 0 0;
+	padding: 8px 15px;
+}
+
+.btn-group {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn-group button {
+	width: 34px;
+	height: 34px;
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+.b_btn_left {
+	display: block;
+	float: left;
+	text-align: left;
+	position: relative;
+	width: 100px;
+	top: 10px;
+	margin-right: 5px;
+}
+
+.input_btn_left {
+	display: block;
+	float: left;
+	text-align: left;
+	top: 9px;
+	margin-right: 10px;
+	position: relative;
+}
+
+#multiple_choice {
+	position: relative;
+	top: 5px;
+	margin-right: 10px;
+	padding: 0 20px;
+	height: 25px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	background-color: white;
+	margin-bottom: 5px;
+}
+
+#short_answer_question {
+	position: relative;
+	top: 5px;
+	margin-right: 10px;
+	padding: 0 20px;
+	height: 25px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	background-color: white;
+	margin-bottom: 5px;
+}
+
+#load_question {
+	position: relative;
+	top: 5px;
+	padding: 0 30px;
+	height: 25px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	background-color: white;
+	margin-bottom: 5px;
+}
+
+.title, .text, .answer, .answer_explanation, .etc {
+	display: block;
+	float: left;
+	width: 80%;
+	padding: 5px 5px;
+	margin-bottom: 10px;
+	margin-top: 3px;
+}
+
+/**/
+body {
+	white-space: normal;
+	word-break: break-all;
+	min-width: 360px;
+	background-color: #F1F2F2;
+	margin: 0;
+	
+	padding-bottom: 30px;
+}
+
+#wrapper {
+	width: 100%;
+	position: relative;
+}
+
+#nav {
+	width: 243px;
+	float: left;
+	text-align: center;
+	background-color: #284050;
+	vertical-align: middle;
+	min-height: 1600px;
+}
+
+#sign {
+	border: 1px solid #F1F2F2;
+	height: 45px;
+	margin-left: 243px;
+	background-color: white;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 1px 1px 1px #ddd;
+}
+
+#sign li {
+	display: block;
+	float: right;
+	margin-right: 20px;
+	width: 75px;
+	height: 45px;
+}
+
+#sign li a {
+	display: block;
+	padding-top: 12px;
+	height: 33px;
+	width: 75px;
+	text-align: center;
+}
+
+#sign li a:hover {
+	background-color: #eeeeee;
+}
+
+#login_frm {
+	margin: 0 auto;
+	max-width: 300px;
+	width: 100%;
+}
+
+#username, #userid, #usernickname, #password {
+	width: 100%;
+	padding: 8px 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	text-align: center;
+}
+
+#login_btn {
+	display: block;
+	max-width: 300px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 8px 10px;
+	background-color: #6F141F;
+	border: 1px solid #6F141F;
+	color: white;
+	border-radius: 3px;
+}
+
+#login_div {
+	position: relative;
+	top: 250px;
+}
+
+#login_btn {
+	position: static;
+	top: 0;
+}
+
+#lyk_logo {
+	width: 100%;
+	height: 215px;
+	padding-top: 30px;
+	/*background-color: #284050;*/
+	background-color: #1E2F3C;
+	color: #8C97A8;
+}
+
+#back_btn, #signup_btn {
+	display: block;
+	max-width: 300px;
+	width: 100%;
+	padding: 8px 10px;
+	margin: 10px auto 0 auto;
+	float: none;
+	background-color: #6F141F;
+	border: 1px solid #6F141F;
+	color: white;
+	border-radius: 3px;
+}
+
+#a_css {
+	display: block;
+	margin: 0 auto;
+	max-width: 300px;
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+
+#lyk_logo img {
+	
+}
+
+#lyk_logo>font {
+	display: none;
+}
+
+#lyk_sign {
+	width: 100%;
+	height: 170px;
+	background-color: white;
+	padding-top: 37px;
+}
+
+#lyk_sign img, #lyk_sign>font {
+	display: none;
+}
+
+#lyk_sign input, #lyk_sign button {
+	display: block;
+	margin: 0 auto;
+	width: 85%;
+	margin-bottom: 5px;
+	text-align: center;
+	border: 1px solid white;
+	padding: 9px;
+}
+
+#lyk_sign input {
+	border: 1px solid black;
+}
+
+#lyk_sign button {
+	color: white;
+}
+
+#lyk_sign button:nth-child(2) {
+	background-color: #FF7171;
+	border: 1px solid #FF7171;
+}
+
+#lyk_menu {
+	width: 100%;
+	background-color: white;
+}
+
+.activate {
+	
+}
+
+#lyk_menu ul li {
+	height: 30px;
+	padding-top: 10px;
+	cursor: pointer;
+	background: #284050;
+	color: #8C97A8;
+	font-weight: bold;
+}
+/* "background-color","#293846").css("width",width-5).css("border-left","5px solid #ddd").css("color","white");*/
+#container {
+	border: 1px solid #F1F2F2;
+	height: 1200px;
+	margin-left: 253px;
+	margin-right: 10px;
+}
+
+#board_container #row {
+	cursor: pointer;
+}
+
+.ibox {
+	border-top: 2px solid #6F141F;
+	background-color: white;
+	font-size: 10pt;
+}
+
+.ibox-title {
+	padding: 14px 15px 13px;
+}
+
+.ibox-content {
+	padding: 10px 15px 5px 15px;
+	min-height: 42px;
+	border-top: 1px solid #ddd;
+}
+
+.ibox-infor {
+	padding: 13px 15px 11px 15px;
+	border-top: 1px solid #ddd;
+	display: list-item;
+}
+
+.ibox font {
+	display: block;
+	float: left;
+}
+.ibox img {
+	display: block;
+	float: left;
+}
+.ibox-content img {
+	float:none;
+	float: center;
+	max-width: 100%;
+}
+
+.row {
+	margin-top: 10px;
+	width: 100%;
+}
+
+#test {
+	margin-left: 243px;
+	background-color: lime;
+	width: 100%;
+	height: 1200px;
+}
+
+@media screen and (max-width: 1040px) {
+	#nav {
+		width: 103px;
+	}
+	#lyk_logo {
+		height: 50px;
+		padding-top: 33px;
+		border: 0;
+		display: none;
+	}
+	#login_div {
+		position: relative;
+		top: 70px;
+	}
+	#login_btn {
+		position: static;
+	}
+	#lyk_logo img {
+		display: block;
+		margin: 0 auto;
+	}
+	#lyk_logo b {
+		display: none;
+	}
+	#lyk_sign {
+		height: 50px;
+		padding-top: 33px;
+		border-top: 1px solid #ddd;
+	}
+	#lyk_sign form, #lyk_sign button, #lyk_sign a, #lyk_sign p {
+		display: none;
+	}
+	#lyk_sign img {
+		display: block;
+		margin: 0 auto;
+	}
+	#sign {
+		margin-left: 103px;
+	}
+	#container {
+		margin-left: 113px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#nav {
+		float: initial;
+		width: 100%;
+		height: inherit;
+		padding-top: 37px;
+		min-height: 0;
+	}
+	#sign {
+		position: absolute;
+		width: 100%;
+		height: 35px;
+		top: 0;
+		margin: 0;
+	}
+	#login_div {
+		top: 10px;
+	}
+	#login_btn {
+		position: static;
+	}
+	#sign ul li {
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+		height: 35px;
+	}
+	#sign li {
+		float: none;
+	}
+	#sign li a {
+		height: 28px;
+		padding-top: 7px;
+	}
+	#container {
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+	#lyk_logo {
+		display: none;
+	}
+	#lyk_logo img {
+		display: none;
+	}
+	#lyk_logo>font {
+		display: block;
+	}
+	#lyk_sign {
+		height: 43px;
+		padding-top: 20px;
+	}
+	#lyk_sign img {
+		display: none;
+	}
+	#lyk_sign>font {
+		display: block;
+	}
+	#lyk_menu {
+		
+	}
+	#login_li {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.title, .text, .answer, .answer_explanation, .etc {
+		width: 100%;
+		float: center;
+	}
+	.b_btn_left {
+		top: 0;
+	}
+}
